@@ -1,0 +1,56 @@
+/* ==========================================================================
+   INDUSTRIQ DESIGN SYSTEM TOKENS
+   Palette: Industrial Brutalism & Swiss Architectural Minimalism
+   ========================================================================== */
+
+:root {
+  /* Core Brand Palette */
+  --iq-obsidian: #171918;
+  --iq-obsidian-deep: #0f1110;
+  --iq-obsidian-elevated: #212422;
+  --iq-ivory: #f3f0e9;
+  --iq-ivory-warm: #ebe6dc;
+  --iq-ivory-light: #faf8f4;
+  --iq-orange: #f47732;
+  --iq-orange-hover: #df611d;
+  --iq-orange-muted: rgba(244, 119, 50, 0.14);
+  --iq-steel: #747a75;
+  --iq-steel-dark: #4f5450;
+  --iq-steel-light: #9ca29d;
+  --iq-concrete: #c8c9c3;
+  --iq-concrete-light: #ddddda;
+
+  /* Semantic Surface & Border Tokens */
+  --surface-primary: var(--iq-ivory);
+  --surface-secondary: var(--iq-ivory-warm);
+  --surface-dark: var(--iq-obsidian);
+  --surface-dark-elevated: var(--iq-obsidian-elevated);
+  --border-light: var(--iq-concrete);
+  --border-subtle-light: rgba(23, 25, 24, 0.14);
+  --border-subtle-dark: rgba(243, 240, 233, 0.14);
+
+  /* Typography */
+  --font-display: var(--font-space-grotesk), "Space Grotesk", system-ui, sans-serif;
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Radii — Sharp Architectural Chamfer */
+  --radius-none: 0px;
+  --radius-sharp: 2px;
+
+  /* Layout & Containers */
+  --container-max: 1440px;
+  --gutter-mobile: 1rem;
+  --gutter-tablet: 1.5rem;
+  --gutter-desktop: 2.5rem;
+
+  /* Elevation */
+  --shadow-brutal-light: 0 12px 32px -12px rgba(23, 25, 24, 0.16);
+  --shadow-brutal-dark: 0 18px 42px -14px rgba(0, 0, 0, 0.55);
+
+  /* Motion */
+  --ease-architectural: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 180ms;
+  --duration-base: 320ms;
+  --duration-slow: 600ms;
+}

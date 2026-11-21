@@ -1,0 +1,37 @@
+================================================================================
+ENVATO MARKET COMMERCIAL LICENSE TERMS
+================================================================================
+
+Item: INDUSTRIQ — Precision Industrial & Autonomous Manufacturing Next.js Template
+Author: TemplateFlux
+Copyright (c) 2026 TemplateFlux. All rights reserved.
+
+This template is licensed for commercial use in accordance with the Envato
+Market License Agreement under which it was purchased:
+
+- Regular License: Use in a single end product for personal or commercial use,
+  where end users cannot be charged for access or use.
+- Extended License: Use in a single end product for personal or commercial use,
+  where end users can be charged for access or use.
+
+Third-Party Licenses & Attributions:
+- Typography:
+  * Space Grotesk (SIL Open Font License 1.1)
+  * Inter (SIL Open Font License 1.1)
+  * IBM Plex Mono (SIL Open Font License 1.1)
+  All loaded cleanly via next/font/google.
+
+- Software Libraries:
+  * Next.js (MIT License) - Copyright (c) Vercel, Inc.
+  * React & React DOM (MIT License) - Copyright (c) Meta Platforms, Inc.
+  * Tailwind CSS (MIT License) - Copyright (c) Tailwind Labs, Inc.
+  * Lucide React (ISC License) - Copyright (c) Lucide Contributors
+  * TypeScript (Apache License 2.0) - Copyright (c) Microsoft Corporation
+
+- Bundled Photography:
+  All 10 industrial photographs in industriq/public/images/ are bespoke art-directed
+  renders created specifically for INDUSTRIQ and are included in the download package
+  with full commercial and redistribution rights.
+
+See CREDITS.txt for detailed manifests.
+================================================================================

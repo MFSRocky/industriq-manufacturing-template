@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INDUSTRIQ — Documentation &amp; ThemeForest Buyer Guide (v1.0.0)</title>
+  <style>
+    :root {
+      --obsidian: #171918;
+      --ivory: #f3f0e9;
+      --ivory-light: #faf8f4;
+      --orange: #f47732;
+      --steel: #4f5450;
+      --concrete: #c8c9c3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+      background: var(--ivory);
+      color: var(--obsidian);
+      line-height: 1.6;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      min-height: 100vh;
+    }
+    aside {
+      background: var(--obsidian);
+      color: var(--ivory);
+      padding: 2rem 1.5rem;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid #2b2e2c;
+    }
+    .brand {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.25rem;
+    }
+    .badge {
+      display: inline-block;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--obsidian);
+      background: var(--orange);
+      padding: 0.2rem 0.5rem;
+      margin-bottom: 1.75rem;
+      font-weight: 600;
+    }
+    aside nav a {
+      display: block;
+      color: #c8c9c3;
+      text-decoration: none;
+      font-size: 0.875rem;
+      padding: 0.55rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    aside nav a:hover { color: var(--orange); }
+    main {
+      padding: 3rem 4rem;
+      max-width: 1000px;
+    }
+    section {
+      padding-bottom: 3rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--concrete);
+    }
+    h1 { font-size: 2.5rem; letter-spacing: -0.03em; margin-bottom: 0.75rem; }
+    h2 { font-size: 1.65rem; letter-spacing: -0.02em; margin-bottom: 1rem; }
+    h3 { font-size: 1.15rem; margin: 1.25rem 0 0.5rem; }
+    p { color: var(--steel); margin-bottom: 1rem; }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.85rem;
+    }
+    pre {
+      background: var(--obsidian);
+      color: var(--ivory);
+      padding: 1.15rem 1.25rem;
+      overflow-x: auto;
+      border-left: 3px solid var(--orange);
+      margin: 1rem 0 1.5rem;
+    }
+    code {
+      background: #e6e2d8;
+      color: var(--obsidian);
+      padding: 0.12rem 0.35rem;
+    }
+    pre code { background: transparent; color: inherit; padding: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      background: var(--ivory-light);
+      border: 1px solid var(--obsidian);
+      font-size: 0.875rem;
+    }
+    th {
+      background: var(--obsidian);
+      color: var(--ivory);
+      text-align: left;
+      padding: 0.75rem 1rem;
+      font-family: ui-monospace, monospace;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--concrete);
+      vertical-align: top;
+    }
+    .swatch {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      vertical-align: middle;
+      margin-right: 0.45rem;
+      border: 1px solid rgba(0,0,0,0.25);
+    }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; }
+      main { padding: 2rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside>
+      <div class="brand">INDUSTRIQ</div>
+      <div class="badge">DOCS // V1.0.0</div>
+      <nav>
+        <a href="#overview">01. Template Overview</a>
+        <a href="#installation">02. Installation &amp; Scripts</a>
+        <a href="#structure">03. File &amp; Folder Structure</a>
+        <a href="#tokens">04. Design Tokens &amp; Fonts</a>
+        <a href="#customization">05. Editing Content &amp; Routes</a>
+        <a href="#forms">06. Quote &amp; Form Integration</a>
+        <a href="#credits">07. Asset Credits &amp; Licenses</a>
+        <a href="#changelog">08. Version Changelog</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="overview">
+        <h1>INDUSTRIQ Template Documentation</h1>
+        <p>
+          Thank you for purchasing <strong>INDUSTRIQ</strong> — a precision-engineered Next.js App Router, TypeScript, and Tailwind CSS v4 website template built for industrial manufacturing enterprises, 5-axis CNC shops, turnkey robotics integrators, and metal additive bureaus.
+        </p>
+        <table>
+          <thead>
+            <tr><th>Specification</th><th>Details</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Framework</strong></td><td>Next.js 16.4 (App Router, SSG + SSR Compatible)</td></tr>
+            <tr><td><strong>UI Library &amp; Types</strong></td><td>React 19.3 + Strict TypeScript 5.7</td></tr>
+            <tr><td><strong>Styling Engine</strong></td><td>Tailwind CSS v4 + CSS Custom Property Design Tokens</td></tr>
+            <tr><td><strong>Total Pages</strong></td><td>Homepage (12 unique sections) + 10 complete inner routes (26 static build outputs)</td></tr>
+            <tr><td><strong>Static Export Ready</strong></td><td>Yes — <code>npm run export</code> produces pure HTML/CSS/JS inside <code>out/</code></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="installation">
+        <h2>02. Installation &amp; Build Commands</h2>
+        <p>Ensure Node.js 20.x or newer is installed on your workstation. Navigate into the <code>industriq/</code> folder and run:</p>
+        <pre><code>cd industriq
+npm install
+npm run dev</code></pre>
+        <p>Your local development server starts at <code>http://localhost:3000</code>.</p>
+
+        <h3>Production Build &amp; Jamstack Static Export</h3>
+        <pre><code># Standard Next.js SSR/SSG production build &amp; server
+npm run build
+npm run start
+
+# 100% Static Jamstack HTML Export (outputs to ./out)
+npm run export</code></pre>
+      </section>
+
+      <section id="structure">
+        <h2>03. Project Directory Structure</h2>
+        <pre><code>industriq/
+├── public/images/          # 10 art-directed industrial JPEG photographs (100% local)
+├── src/
+│   ├── app/                # Next.js App Router pages (Home + 10 inner routes)
+│   │   ├── page.tsx        # 12-section Flagship Homepage
+│   │   ├── about/          # Company Heritage, Campuses &amp; Leadership
+│   │   ├── capabilities/   # Filterable Machine Fleet &amp; Alloy Spec Table
+│   │   ├── contact/        # Validated RFQ Desk &amp; Plant Switcher
+│   │   ├── industries/     # 6 Regulated Sector Verticals
+│   │   ├── insights/       # Technical Journal + Dynamic [slug] Reader
+│   │   ├── projects/       # Filterable Case Studies + Dynamic [slug] Telemetry
+│   │   ├── quality/        # Accredited Frameworks &amp; 4-Gate Inspection
+│   │   └── solutions/      # Engagement Tiers + 6 Division Specs
+│   ├── components/         # Modular UI, Layout, Form &amp; Homepage sections
+│   ├── data/               # Centralized TypeScript content modules
+│   └── styles/tokens.css   # Core CSS design system variables
+├── next.config.ts          # Dual SSR &amp; Static Export configuration
+├── package.json            # Dependencies &amp; scripts
+└── tsconfig.json           # TypeScript strict configuration</code></pre>
+      </section>
+
+      <section id="tokens">
+        <h2>04. Design Tokens &amp; Typography</h2>
+        <p>All brand colors, borders, and typography variables reside in <code>src/styles/tokens.css</code> and <code>src/app/globals.css</code>. Google Fonts (<code>Space Grotesk</code>, <code>Inter</code>, and <code>IBM Plex Mono</code>) load via <code>next/font/google</code> inside <code>src/app/layout.tsx</code>.</p>
+        <table>
+          <thead>
+            <tr><th>Token Name</th><th>Hex Value</th><th>Usage</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>--iq-obsidian</code></td><td><span class="swatch" style="background:#171918"></span>#171918</td><td>Dark architectural bands, hero backdrop, footer, active panels</td></tr>
+            <tr><td><code>--iq-ivory</code></td><td><span class="swatch" style="background:#F3F0E9"></span>#F3F0E9</td><td>Primary Swiss editorial print surface</td></tr>
+            <tr><td><code>--iq-orange</code></td><td><span class="swatch" style="background:#F47732"></span>#F47732</td><td>Signal accents, primary CTAs, telemetry markers, focus rings</td></tr>
+            <tr><td><code>--iq-steel</code></td><td><span class="swatch" style="background:#747A75"></span>#747A75</td><td>Technical secondary copy &amp; muted metadata labels</td></tr>
+            <tr><td><code>--iq-concrete</code></td><td><span class="swatch" style="background:#C8C9C3"></span>#C8C9C3</td><td>1px structural hairline rules &amp; grid dividers</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="customization">
+        <h2>05. Editing Content &amp; Adding Case Studies</h2>
+        <p>Zero component JSX edits are required to swap demo company details, locations, machines, or case studies. Edit the corresponding TypeScript file in <code>src/data/</code>:</p>
+        <ul>
+          <li><code>src/data/site.ts</code> — Brand title, navigation, global campuses, KPI numbers, ticker bar.</li>
+          <li><code>src/data/solutions.ts</code> — 6 production solutions &amp; 5-phase manufacturing process workflow.</li>
+          <li><code>src/data/capabilities.ts</code> — Machine fleet envelopes table &amp; EN 10204 3.1 alloy database.</li>
+          <li><code>src/data/projects.ts</code> — Case study entries &amp; Zeiss CMM verification tables (automatically generates static <code>/projects/[slug]</code> routes).</li>
+          <li><code>src/data/insights.ts</code> — Engineering articles &amp; sections (automatically generates static <code>/insights/[slug]</code> routes).</li>
+        </ul>
+      </section>
+
+      <section id="forms">
+        <h2>06. Integrating the RFQ &amp; Contact Form</h2>
+        <p>The interactive RFQ form lives in <code>src/components/forms/QuoteContactForm.tsx</code>. It comes pre-built with client-side validation, accessible error annotations, loading transitions, and ticket confirmation feedback so static demos work out of the box.</p>
+        <p>To connect a live backend endpoint (such as Next.js Route Handlers, Resend, Formspree, or HubSpot), replace the simulated dispatch block inside <code>handleSubmit</code> with a standard <code>fetch("/api/rfq", { method: "POST", body: JSON.stringify(form) })</code> request.</p>
+      </section>
+
+      <section id="credits">
+        <h2>07. Asset Credits, Fonts &amp; Commercial Licenses</h2>
+        <table>
+          <thead>
+            <tr><th>Asset / Library</th><th>License</th><th>Source / Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>public/images/*.jpg</code> (10 Industrial Photos)</td><td>Original Commercial Rights Included</td><td>Bespoke art-directed industrial renders included inside template bundle.</td></tr>
+            <tr><td>Space Grotesk, Inter, IBM Plex Mono</td><td>SIL Open Font License 1.1</td><td><a href="https://fonts.google.com">Google Fonts</a> (loaded automatically via <code>next/font/google</code>).</td></tr>
+            <tr><td>Next.js &amp; React</td><td>MIT License</td><td>Vercel / Meta Open Source.</td></tr>
+            <tr><td>Tailwind CSS v4</td><td>MIT License</td><td>Tailwind Labs.</td></tr>
+            <tr><td>Lucide React Icons</td><td>ISC License</td><td>Open-source SVG technical iconography.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="changelog">
+        <h2>08. Version History</h2>
+        <p><strong>v1.0.0 (2026-11-21)</strong> — Initial commercial release supporting Next.js 16.4 App Router, full SSG static export, 12-section homepage, 10 inner routes, global <code>⌘K</code> search, and 10 bundled industrial photography assets.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

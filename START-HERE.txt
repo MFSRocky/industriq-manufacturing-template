@@ -1,0 +1,61 @@
+================================================================================
+WELCOME TO INDUSTRIQ — QUICK ONBOARDING GUIDE
+================================================================================
+
+Thank you for purchasing INDUSTRIQ — Swiss Industrial & Precision
+Manufacturing Next.js Template.
+
+1. WHERE IS THE TEMPLATE SOURCE CODE?
+--------------------------------------------------------------------------------
+The complete Next.js template source code is located inside the "industriq" folder:
+- industriq/package.json
+- industriq/src/app/          (All routes: Home + 10 inner pages)
+- industriq/src/components/   (Modular UI, form & layout components)
+- industriq/src/data/         (Decoupled TypeScript content files)
+- industriq/public/images/    (10 included high-res industrial photos)
+
+2. HOW DO I RUN THE TEMPLATE LOCALLY?
+--------------------------------------------------------------------------------
+Make sure you have Node.js 20.x or newer installed. Open your terminal:
+
+  cd industriq
+  npm install
+  npm run dev
+
+Open your browser at: http://localhost:3000
+
+3. HOW DO I BUILD FOR PRODUCTION?
+--------------------------------------------------------------------------------
+For standard Next.js production SSR/SSG server:
+  npm run build
+  npm run start
+
+For 100% Static Jamstack HTML Export (pure static files in industriq/out):
+  npm run export
+
+The resulting "out/" folder can be deployed to any static host (GitHub Pages,
+Cloudflare Pages, AWS S3, Vercel, Netlify, Apache, Nginx).
+
+4. WHERE IS THE DOCUMENTATION?
+--------------------------------------------------------------------------------
+Offline documentation is located inside the "documentation" folder:
+Open "documentation/index.html" directly in any browser for comprehensive
+guides on customizing typography, colors, data files, RFQ forms, and deployment.
+
+5. DIRECTORY MAP:
+--------------------------------------------------------------------------------
+- industriq/        -> Main Next.js App Router codebase
+- documentation/    -> Standalone offline HTML help guide
+- marketplace/      -> Envato listing copy, specifications & search tags
+- preview-assets/   -> Promotional screenshots, covers, and thumbnails
+- README.md         -> Repository overview with stack info & scripts
+- CHANGELOG.md      -> Version release notes
+- CREDITS.txt       -> Asset licensing & font attributions
+- LICENSE.txt       -> Commercial license agreement terms
+- START-HERE.txt    -> This quick onboarding guide
+
+6. NEED SUPPORT?
+--------------------------------------------------------------------------------
+Refer to documentation/index.html or contact us through the author support page
+on ThemeForest / Envato Market.
+================================================================================

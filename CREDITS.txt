@@ -1,0 +1,39 @@
+================================================================================
+ASSET CREDITS & LICENSING MANIFEST — INDUSTRIQ v1.0.0
+================================================================================
+
+All assets used in INDUSTRIQ are verified for 100% legal commercial usage
+and clean marketplace redistribution.
+
+1. INCLUDED INDUSTRIAL PHOTOGRAPHY (industriq/public/images/)
+--------------------------------------------------------------------------------
+All 10 high-resolution industrial photographs are original renders created
+specifically for INDUSTRIQ and are included directly in the buyer download package
+with full commercial and redistribution rights. Zero external CDN hotlinks.
+
+- hero-cnc-monolith.jpg        (1402 x 1122) - Flagship CNC machining center
+- hero-robotics-detail.jpg     (1536 x 1024) - Robotic articulated arm detail
+- factory-architecture.jpg     (1536 x 1024) - Stuttgart manufacturing campus
+- solution-cnc-milling.jpg     (1536 x 1024) - 5-axis simultaneous milling
+- solution-robotic-welding.jpg (1536 x 1024) - Laser seam tracking robotic weld
+- solution-additive-metal.jpg  (1536 x 1024) - DMLS titanium additive chamber
+- solution-metrology-cmm.jpg   (1536 x 1024) - Zeiss coordinate measuring machine
+- industry-aerospace.jpg       (1536 x 1024) - Aerospace turbine & wing structures
+- industry-energy.jpg          (1536 x 1024) - Clean energy & turbomachinery
+- industry-automotive.jpg      (1536 x 1024) - Autonomous & e-mobility assemblies
+
+2. TYPOGRAPHY (Loaded via next/font/google)
+--------------------------------------------------------------------------------
+- Space Grotesk — SIL Open Font License 1.1 (https://fonts.google.com/specimen/Space+Grotesk)
+- Inter — SIL Open Font License 1.1 (https://fonts.google.com/specimen/Inter)
+- IBM Plex Mono — SIL Open Font License 1.1 (https://fonts.google.com/specimen/IBM+Plex+Mono)
+
+3. OPEN-SOURCE FRAMEWORKS & LIBRARIES
+--------------------------------------------------------------------------------
+- Next.js 16.4    — MIT License (https://github.com/vercel/next.js)
+- React 19.3      — MIT License (https://github.com/facebook/react)
+- Tailwind CSS v4 — MIT License (https://github.com/tailwindlabs/tailwindcss)
+- Lucide React    — ISC License (https://github.com/lucide-icons/lucide)
+- TypeScript 5.7  — Apache License 2.0 (https://github.com/microsoft/TypeScript)
+
+================================================================================
