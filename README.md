@@ -5,6 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 [![ThemeForest Standard](https://img.shields.io/badge/ThemeForest-Approved_Standard-brightgreen?style=flat-square)](https://themeforest.net/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-industriq--template.vercel.app-F47732?style=flat-square&logo=vercel)](https://industriq-template.vercel.app)
 
 **INDUSTRIQ** is an engineering-grade, brutalist-industrial Next.js 16 website template engineered for precision manufacturing enterprises, 5-axis CNC machining facilities, turnkey robotics integrators, metal additive (DMLS) bureaus, and aerospace/medical Tier-1 suppliers.
 
